@@ -91,7 +91,6 @@ for image in images:
     language = response.output_text
     print(f"\nLanguage: {language}\n\n")
     rows.append([image,text,description,language])
-    break
 
 with open("documents.csv","w",encoding="UTF-8") as outfile:
    outfile.write("file,text,description,language\n")
