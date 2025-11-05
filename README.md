@@ -1,2 +1,2 @@
 # ai-api-workshop
-Intro to AI APIs
+Python demo code for Intro to AI API workshop
